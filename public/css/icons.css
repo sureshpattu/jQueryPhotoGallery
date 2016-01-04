@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "sz-icons";
+  src:url("../font/sz-icons.eot");
+  src:url("../font/sz-icons.eot?#iefix") format("embedded-opentype"),
+    url("../font/sz-icons.woff") format("woff"),
+    url("../font/sz-icons.ttf") format("truetype"),
+    url("../font/sz-icons.svg#sz-icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "sz-icons" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="sz-icon-"]:before,
+[class*=" sz-icon-"]:before {
+  font-family: "sz-icons" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.sz-icon-heart-outline:before {
+  content: "\31";
+}
+.sz-icon-arrow-thin-down:before {
+  content: "\32";
+}
+.sz-icon-arrow-thin-left:before {
+  content: "\33";
+}
+.sz-icon-arrow-thin-right:before {
+  content: "\34";
+}
+.sz-icon-arrow-thin-up:before {
+  content: "\35";
+}
+.sz-icon-clock-outline:before {
+  content: "\36";
+}
+.sz-icon-close-outline:before {
+  content: "\37";
+}
+.sz-icon-help-outline:before {
+  content: "\38";
+}
+.sz-icon-menu:before {
+  content: "\39";
+}
+.sz-icon-list-outline:before {
+  content: "\30";
+}
+.sz-icon-arrow-left:before {
+  content: "\61";
+}
+.sz-icon-arrow-right:before {
+  content: "\62";
+}
+.sz-icon-arrow-down:before {
+  content: "\63";
+}
+.sz-icon-arrow-up:before {
+  content: "\64";
+}
+.sz-icon-email-outline:before {
+  content: "\66";
+}
+.sz-icon-phone:before {
+  content: "\67";
+}
+.sz-icon-person:before {
+  content: "\68";
+}
+.sz-icon-search:before {
+  content: "\65";
+}
+.sz-icon-filter:before {
+  content: "\69";
+}
+.sz-icon-personalize:before {
+  content: "\6a";
+}
+.sz-icon-star:before {
+  content: "\6b";
+}
+.sz-icon-location:before {
+  content: "\6c";
+}
+.sz-icon-calendar:before {
+  content: "\6d";
+}
+.sz-icon-search-bold:before {
+  content: "\6e";
+}

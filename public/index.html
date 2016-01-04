@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Photo Gallery Using jQuery</title>
+    <link href="css/gallery.css" rel="stylesheet" type="text/css"/>
+    <link href="css/icons.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div class="page">
+    <div class="page__container">
+        <div class="page__desc-container">
+            <div class="page__desc">
+                <h1>Photo Gallery Using jQuery</h1>
+                <p>Photo Gallery for both Web and Mobile sites using jQuery.</p>
+            </div>
+        </div>
+        <div class="page__image-container">
+            <div class="gallery__one gallery__wrapper">
+                <!-- Gallery will load here -->
+            </div>
+            <div class="gallery__two gallery__wrapper">
+                <!-- Gallery will load here -->
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/gallery.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var imgArr=['images/placeholder-1.png','images/placeholder-2.png','images/placeholder-3.jpg','images/placeholder-4.jpg'];
+        var hotelPhotosGallery = new gallery({
+            images: imgArr,
+            container: '.gallery__one'
+        });
+        var hotelPhotosGalleryTwo = new gallery({
+            images: imgArr,
+            container: '.gallery__two'
+        });
+    });
+</script>
+</html>
